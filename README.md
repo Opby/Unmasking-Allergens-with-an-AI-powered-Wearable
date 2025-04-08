@@ -44,3 +44,23 @@ Background ~91%
 Coughing ~80%
 Sneezing ~97%
 <img width="683" alt="Screen Shot 2025-04-07 at 5 36 37 PM" src="https://github.com/user-attachments/assets/379ebf1a-3f90-4486-8195-34affd988324" />
+
+# Human testing results
+* We selected 10 volunteers who already know their allergen via medical clinic to test the wearables with their consent
+* We compared their self-reported allergen and detected allergen
+ <img width="778" alt="Screen Shot 2025-04-07 at 5 39 17 PM" src="https://github.com/user-attachments/assets/618cee14-3ee7-4ae5-aeca-6d8289170775" />
+
+* 6 out of 10 detected allergen DOES match with self-reported
+allergen
+* 4 out of 10 detected allergen DOES NOT match with self-reported
+allergen
+Volunteer #2 and #3 - Both only wear the devices for 3 days
+and device only detected several allergic reactions. The errors
+are due to volunteers did not wear the devices for long enough
+time (we requested volunteers to wear at least 7 days)
+Volunteer #5’s self-reported allergen is cat while our devices
+currently only support environmental allergens. The error is
+due to allergen type is not currently supported
+Volunteer #8’s self-reported allergen is NONE but had some flu
+symptoms. The error is due to devices failed to distinguish
+between flu and allergy symptoms
